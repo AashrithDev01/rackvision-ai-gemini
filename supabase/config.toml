@@ -1,0 +1,10 @@
+project_id = "augwllpvnlxwojbkyhxd"
+
+[functions.analyze-image]
+verify_jwt = false
+
+[functions.chat]
+verify_jwt = false
+
+[functions.generate-ticket]
+verify_jwt = false
