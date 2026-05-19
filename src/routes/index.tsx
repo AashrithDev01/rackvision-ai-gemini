@@ -25,7 +25,7 @@ function Landing() {
             <Network className="h-5 w-5 text-background" />
           </div>
           <span className="font-mono text-lg font-semibold tracking-tight">
-            RackGuide<span className="text-cyber">.AI</span>
+            RackVision<span className="text-cyber">.AI</span>
           </span>
         </div>
         <nav className="hidden gap-8 text-sm text-muted-foreground md:flex">
@@ -55,11 +55,11 @@ function Landing() {
             transition={{ delay: 0.1 }}
             className="text-5xl font-bold leading-[1.05] tracking-tight md:text-7xl"
           >
-            <span className="text-gradient">RackGuide AI</span>
+            <span className="text-gradient">RackVision AI</span>
             <br />
-            <span className="text-foreground">Copilot for Data Center</span>
+            <span className="text-foreground">Physical-to-Logical Digital Twin</span>
             <br />
-            <span className="text-muted-foreground">& Network Troubleshooting</span>
+            <span className="text-muted-foreground">& Network Simulation</span>
           </motion.h1>
           <motion.p
             initial={{ opacity: 0 }}
@@ -67,8 +67,7 @@ function Landing() {
             transition={{ delay: 0.3 }}
             className="mt-6 max-w-xl text-base text-muted-foreground md:text-lg"
           >
-            Point your camera at a rack, switch, patch panel or fiber tray. RackGuide identifies devices,
-            diagnoses faults, and generates verified resolution playbooks — in seconds.
+            Point your camera or feed live CCTV at a rack, switch, patch panel or fiber tray. RackVision AI instantly identifies devices, diagnoses physical-to-logical faults, and generates verified resolution playbooks.
           </motion.p>
           <motion.div
             initial={{ opacity: 0, y: 10 }}
@@ -158,7 +157,7 @@ function Landing() {
       </section>
 
       <footer className="relative z-10 border-t border-border/40 px-6 py-8 text-center text-xs text-muted-foreground md:px-12">
-        RackGuide AI · enterprise infrastructure copilot · {new Date().getFullYear()}
+        RackVision AI · enterprise physical-to-logical digital twin · {new Date().getFullYear()}
       </footer>
     </div>
   );

@@ -46,7 +46,7 @@ function AppShell() {
             <Network className="h-5 w-5 text-background" />
           </div>
           <span className="font-mono font-semibold tracking-tight">
-            RackGuide<span className="text-cyber">.AI</span>
+            RackVision<span className="text-cyber">.AI</span>
           </span>
         </Link>
         <nav className="flex-1 space-y-1 px-3">
@@ -91,7 +91,7 @@ function AppShell() {
         {/* Topbar */}
         <header className="sticky top-0 z-20 flex h-14 items-center justify-between border-b border-border/40 bg-background/70 px-4 backdrop-blur-xl md:px-8">
           <div className="flex items-center gap-2 text-sm">
-            <span className="text-muted-foreground">RackGuide</span>
+            <span className="text-muted-foreground">RackVision</span>
             <ChevronRight className="h-3.5 w-3.5 text-muted-foreground" />
             <span className="font-medium capitalize">{view.replace("home", "Dashboard")}</span>
           </div>

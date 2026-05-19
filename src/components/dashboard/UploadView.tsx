@@ -90,7 +90,7 @@ export function UploadView() {
             className="mt-3 inline-flex items-center gap-2 rounded-md bg-accent px-4 py-2 text-sm font-medium text-accent-foreground disabled:opacity-40 hover:glow-purple"
           >
             {analyzing ? <Loader2 className="h-4 w-4 animate-spin" /> : <ScanLine className="h-4 w-4" />}
-            {analyzing ? "AI scanning infrastructure…" : "Analyze with RackGuide AI"}
+            {analyzing ? "AI scanning infrastructure…" : "Analyze with RackVision AI"}
           </button>
         </div>
 
@@ -114,7 +114,7 @@ export function UploadView() {
           </ul>
         </div>
         <div className="glass rounded-xl p-4 text-xs text-muted-foreground">
-          Powered by RackGuide AI vision · structured output via tool calling.
+          Powered by RackVision AI vision · structured output via tool calling.
         </div>
       </div>
     </div>

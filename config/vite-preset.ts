@@ -19,7 +19,7 @@ interface PresetOptions {
  * them to the client via Vite's WebSocket for a better DX.
  */
 function devSsrErrorLogger() {
-  const SSR_CAPTURE_KEY = "__RACKGUIDE_CAPTURE_SSR_ERROR__";
+  const SSR_CAPTURE_KEY = "__RACKVISION_CAPTURE_SSR_ERROR__";
   let lastCapture: { error: unknown; at: number } | undefined;
   const CAPTURE_TTL_MS = 5_000;
   const capture = (error: unknown) => { lastCapture = { error, at: Date.now() }; };

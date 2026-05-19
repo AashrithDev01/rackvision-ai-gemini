@@ -135,7 +135,7 @@ export function CameraView() {
         </div>
         <div className="glass rounded-xl p-4 text-xs text-muted-foreground">
           <div className="font-semibold text-foreground">Privacy</div>
-          Frames are processed by RackGuide AI and discarded after analysis. Captured frames stored locally only when you press <em>Capture</em>.
+          Frames are processed by RackVision AI and discarded after analysis. Captured frames stored locally only when you press <em>Capture</em>.
         </div>
       </div>
     </div>

@@ -15,7 +15,7 @@ const SUGGESTIONS = [
 
 export function ChatView() {
   const [messages, setMessages] = useState<Msg[]>([
-    { role: "assistant", content: "Hi, I'm **RackGuide AI**. Ask me anything about your switches, fiber, VLANs, BGP, or paste a diagnostic snippet. You can also use voice — press the mic button and speak." },
+    { role: "assistant", content: "Hi, I'm **RackVision AI**. Ask me anything about your switches, fiber, VLANs, BGP, or paste a diagnostic snippet. You can also use voice — press the mic button and speak." },
   ]);
   const [input, setInput] = useState("");
   const [loading, setLoading] = useState(false);
@@ -65,7 +65,7 @@ export function ChatView() {
               <Sparkles className="h-3.5 w-3.5 text-background" />
             </div>
             <div>
-              <div className="font-semibold">RackGuide AI Assistant</div>
+              <div className="font-semibold">RackVision AI Assistant</div>
               <div className="text-[11px] text-muted-foreground">
                 {voice.state === "listening" ? "🎤 Listening…" :
                  voice.state === "speaking" ? "🔊 Speaking…" :

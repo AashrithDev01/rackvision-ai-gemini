@@ -4,7 +4,7 @@ import { KeyRound, Bot, Camera, Palette } from "lucide-react";
 export function SettingsView() {
   const sections = [
     { icon: KeyRound, title: "API Keys", desc: "Stream API key configured for real-time video and AI services.", value: "STREAM_API_KEY · configured" },
-    { icon: Bot, title: "AI Provider", desc: "Vision + reasoning model used by RackGuide AI.", value: "google/gemini-2.5-flash (default)" },
+    { icon: Bot, title: "AI Provider", desc: "Vision + reasoning model used by RackVision AI.", value: "google/gemini-2.5-flash (default)" },
     { icon: Camera, title: "Camera", desc: "Default to rear-facing camera on mobile.", value: "facingMode: environment" },
     { icon: Palette, title: "Theme", desc: "Cyber-dark theme · glass + cyan/violet.", value: "dark · cyber" },
   ];
